@@ -1,0 +1,24 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+:root {
+  --blue: #1B5196;
+  --light: #5A5F78;
+  --accent: #FCD20C;
+  --text: #757575;
+  --gray: #969791;
+  --dark: #202020;
+}
+
+header.page-header {
+  display: none;
+}
