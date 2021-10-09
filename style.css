@@ -19,6 +19,187 @@ Version: 1.0
   --dark: #202020;
 }
 
+/* Adobe fonts
+
+Industry Black
+  font-family: industry, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+Industry Bold
+  font-family: industry, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+Industry Bold Italic
+  font-family: industry, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+
+Industry Book
+  font-family: industry, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+Industry Book Italic
+  font-family: industry, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+Industry Light
+  font-family: industry, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+Industry Medium
+  font-family: industry, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+*/
+
 header.page-header {
   display: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: industry, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a {
+  font-family: industry, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.single #content p a {
+  font-family: 'Open Sans', sans-serif;
+  color: #1B5196;
+  text-decoration: underline;
+}
+
+.single #content p a:hover {
+  color: #5A5F78;
+}
+
+.elementor-widget-wrap #headline h3.elementor-headline span.elementor-headline-plain-text:first-of-type {
+  border-bottom: 3px solid yellow;
+  text-shadow: rgba(0, 0, 0, 0.8) 3px 3px;
+}
+
+.elementor-widget-wrap #headline h3.elementor-headline span.elementor-headline-dynamic-wrapper {
+  margin-top: 1rem;
+}
+
+a.elementor-post__read-more {
+  background-color: #1B5196;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  padding: 7px 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+p.form-submit input#comment-submit,
+li.meta-date,
+time.published {
+  font-family: industry, sans-serif;
+}
+
+.blog-entry.large-entry .blog-entry-readmore a {
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #1B5196;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.blog-entry.large-entry .blog-entry-readmore a:hover {
+  color: #FFF !important;
+}
+
+/* About */
+.elementor-widget-wrap #signature {
+  margin-bottom: 0;
+}
+
+/* Contact */
+#gform_wrapper_1 ul {
+  list-style-type: none;
+}
+
+#gform_wrapper_1 ul li.gchoice_1_5_3 {
+  display: -webkit-box;
+  display: flex;
+}
+
+#gform_wrapper_1 ul li input {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+#gform_1 input[type="submit"] {
+  border-radius: 4px;
+  font-family: industry, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+#gform_1 input[type="submit"]:hover {
+  background-color: #FCD20C;
+  color: #000;
+}
+
+#VRF-form .gform_wrapper ul {
+  list-style-type: none;
+}
+
+#VRF-form .gform_wrapper .gform_validation_container {
+  display: none;
+}
+
+.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper::before {
+  padding-top: 0;
+}
+
+.elementor-widget-heading#license {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .elementor-element.portfolio-intro p {
+    margin-bottom: 0;
+  }
+
+  .elementor-element.portfolio-intro p strong {
+    font-weight: 700;
+  }
+
+  #gform_wrapper_1 ul li {
+    padding-bottom: 1rem;
+  }
+
+  #gform_wrapper_1 ul li#field_1_1 div#input_1_1 {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  #gform_wrapper_1 ul li#field_1_1 div#input_1_1 span#input_1_1_3_container {
+    margin-right: 30px;
+    width: calc(50% - 15px);
+  }
+
+  #gform_wrapper_1 ul li#field_1_1 div#input_1_1 span#iinput_1_1_6_container {
+    width: calc(50% - 15px);
+  }
 }
